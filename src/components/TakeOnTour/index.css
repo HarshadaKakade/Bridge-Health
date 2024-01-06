@@ -1,0 +1,14 @@
+.take-on-tour{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.take-on-tour-title{
+    color: #000;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 150% */
+    text-transform: capitalize;
+}

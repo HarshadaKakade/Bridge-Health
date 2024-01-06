@@ -1,0 +1,67 @@
+.first-row .application-image .img-div{
+    width: 880px;
+    height: 550px;
+    border: 1px solid #000;
+    object-fit: fit-content;
+}
+.first-row{
+    margin-bottom: 30px;
+}
+.first-row .first-img{
+    padding-right: 15px;
+}
+.first-row .second-img{
+    padding-left: 15px;
+}
+.second-section-heading{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    margin: 4rem 0px;
+
+}
+.book-visit-btn{
+    height: 61px;
+    width: 295px;
+    background: #1963C6;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24.7px;
+    font-weight: 700;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and  (max-width: 700px){
+    .application-image-with-heading .img-container{
+        margin-bottom: 10px;
+    }
+    .first-row{
+        margin-bottom: 10px;
+    }
+    .first-row .first-img{
+        padding-right: 0;
+    }
+    .first-row .second-img{
+        padding-left: 0;
+    }
+    .first-row .application-image .img-div{
+        margin-bottom: 30px;
+        width: 100%;
+        height: 364px;
+        border: 1px solid #000;
+    }
+    .second-section-heading{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .first-row{
+        margin-bottom: 0px;
+    }
+}
